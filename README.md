@@ -2,7 +2,19 @@
 [SQLBoiler](https://github.com/volatiletech/sqlboiler)と[sql-migrate](https://github.com/rubenv/sql-migrate)の勉強用のレポジトリです。
 
 
-コマンド
+sql-migrate
+- migrationファイルの作成
 ```bash
 sql-migrate new create_uesrs
 ```
+- migrationの実行
+```bash
+sql-migrate up
+```
+
+SQLBoiler
+```bash
+sqlboiler mysql --pkgname "db"  --output "./db/models"
+```
+
+
