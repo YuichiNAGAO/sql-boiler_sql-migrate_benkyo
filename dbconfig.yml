@@ -1,0 +1,5 @@
+development:
+  dialect: mysql
+  datasource: user:mysql@(127.0.0.1:3306)/test?charset=utf8mb4&parseTime=True&loc=Local
+  dir: db/migrations
+  table: migrations
