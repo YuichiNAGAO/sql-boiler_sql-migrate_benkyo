@@ -14,7 +14,7 @@ sql-migrate up
 
 SQLBoiler
 ```bash
-sqlboiler mysql --pkgname "db"  --output "./db/models"
+sqlboiler mysql --config "config/sqlboiler.toml" --pkgname "models"  --output "./db/models" --no-tests --wipe
 ```
 
 

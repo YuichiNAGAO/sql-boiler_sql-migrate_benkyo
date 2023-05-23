@@ -9,4 +9,4 @@ down:
 
 .PHONY: model
 model:
-	sqlboiler mysql --pkgname "models"  --output "./db/models" --wipe --no-tests
+	sqlboiler mysql --config "config/sqlboiler.toml" --pkgname "models"  --output "./db/models" --no-tests --wipe
